@@ -3,3 +3,31 @@
 *:after {
   box-sizing: border-box;
 }
+
+html {
+  overflow: hidden;
+  background-color: black;
+}
+
+.bg1 {
+  background-color: darkgray;
+  height: 90vh;
+}
+
+.bg2 {
+  background-color: darken(darkgray, 10%);
+  height: 100%;
+}
+
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  list-style-type: none;
+  margin-right: 20px;
+}
+
+.navItem {
+  text-decoration: none;
+  margin-right: 20px;
+  color: white;
+}
